@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Github jobs</title>
+  </head>
+  <body>
+    <section class="section">
+      <div class="container">
+        <form id="search-form">
+          <div class="field">
+            <label class="label">Job Description</label>
+            <div class="control">
+              <input
+                class="input"
+                type="text"
+                name="description"
+                placeholder="Filter by title, benefits, companies, expertise"
+                required
+              />
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Location</label>
+            <div class="control">
+              <input
+                class="input"
+                type="text"
+                name="location"
+                placeholder="Filter by city, state, zip code or coutry"
+                required
+              />
+            </div>
+          </div>
+          <div class="control">
+            <label class="checkbox">
+              <input type="checkbox" name="fulltime" /> Full time only
+            </label>
+          </div>
+          <div class="control">
+            <button class="button is-link" id="submit-btn">Submit</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="columns is-multiline" id="job-cards-container">
+    </section>
+   <section class="section">
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>Data provided by
+          <strong><a href="https://jobs.github.com/" target="_blank">Github jobs</a><strong> 
+          
+        </p>
+      </div>
+    </footer>
+   </section>
+    <script src="./src/index.js"></script>
+  </body>
+</html>
