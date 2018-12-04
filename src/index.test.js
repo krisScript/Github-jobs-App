@@ -32,7 +32,7 @@ describe('index', () => {
   afterAll(() => {
     browser.close();
   });
-  it('should have title "Fonoapi app"', async () => {
+  it('should have title "Github jobs"', async () => {
     const title = await page.title();
     expect(title).toMatch('Github jobs');
   });
